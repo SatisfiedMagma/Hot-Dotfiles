@@ -21,11 +21,11 @@ My ricing philosophy is simple, make everything look pretty but always in a usef
 
 * **✏️ Text Editor**: [Neovim](https://github.com/neovim/neovim) with [lazy.nvim](https://github.com/folke/lazy.nvim) along with [VS Code](https://code.visualstudio.com/) and [Sublime Text](https://www.sublimetext.com/) occasionally.
 
-* **$\TeX$ Distribution**: [TexLive](https://tug.org/texlive/) for Linux of course.
+* **TeX Distribution**: [TexLive](https://tug.org/texlive/) for Linux of course.
 
 * **📄 PDF Viewer:** [Zathura](https://pwmt.org/projects/zathura/) with [PDF-Poppler Plugin](https://pwmt.org/projects/zathura-pdf-poppler/).
 
-* **🌐 Browser**: [Zen Browser](https://zen-browser.app/) but takes too much RAM. Would switch back to [Firefox](https://www.firefox.com/) once it stops lagging for me.
+* **🌐 Browser**: Currently using [Brave Browser](https://brave.com). I was earlier [Zen Browser](https://zen-browser.app/) but it takes too much RAM. 
 
 ### Installation 🚀
 To download the dotfiles, I'll eventually write a bash script which extracts everything from this github repository and makes the correct symlink. This is a TODO.

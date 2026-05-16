@@ -43,6 +43,7 @@ alias cntdir="find . -type d | wc -l"
 alias copy="xclip -selection clipboard"
 alias unit="command ls $HOME/Downloads/OTIS_Units/*.pdf | fzf | xargs -I{} bash -c \"zathura {} &\""
 alias fastfetch8="fastfetch -c examples/8.jsonc"
+alias emoji="rofi -modi emoji -show emoji -theme ~/.config/rofi/emoji.rasi"
 # alias disupdate="wget -O discord.deb \"https://discordapp.com/api/download?platform=linux&format=deb\"" #i use arch btw
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.

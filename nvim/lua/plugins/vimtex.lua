@@ -36,12 +36,12 @@ return {
         }
 
         -- LaTeX-only editor settings
-        vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
-            pattern = "*.tex",
-            callback = function()
-                vim.opt_local.textwidth = 62
-                vim.opt_local.conceallevel = 0
-            end,
-        })
+        -- vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
+        --     pattern = "*.tex",
+        --     callback = function()
+        --         vim.opt_local.textwidth = 62
+        --         vim.opt_local.conceallevel = 0
+        --     end,
+        -- })
     end,
 }

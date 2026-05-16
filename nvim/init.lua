@@ -1,3 +1,4 @@
+vim.opt.termguicolors = true
 require("config.lazy")
 
 local opt = vim.opt
@@ -17,7 +18,7 @@ opt.autoindent = true
 opt.smartindent = true
 opt.splitright = true -- terminal position
 opt.clipboard = "unnamedplus" -- yank copies into system clipboard
-opt.termguicolors = true
+-- opt.termguicolors = true
 
 vim.cmd("syntax on")
 vim.cmd("colorscheme tokyonight-night")
