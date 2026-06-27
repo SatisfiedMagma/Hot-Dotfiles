@@ -25,7 +25,7 @@ My ricing philosophy is simple, make everything look pretty but always in a usef
 
 * **📄 PDF Viewer:** [Zathura](https://pwmt.org/projects/zathura/) with [PDF-Poppler Plugin](https://pwmt.org/projects/zathura-pdf-poppler/).
 
-* **🌐 Browser**: Currently using [Brave Browser](https://brave.com). I was earlier [Zen Browser](https://zen-browser.app/) but it takes too much RAM. 
+* **🌐 Browser**: Currently using [Brave Browser](https://brave.com). I was earlier using [Zen Browser](https://zen-browser.app/) but it takes too much RAM. 
 
 ### Installation 🚀
 To download the dotfiles, I'll eventually write a bash script which extracts everything from this github repository and makes the correct symlink. This is a TODO.

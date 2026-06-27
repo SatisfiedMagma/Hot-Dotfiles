@@ -7,6 +7,7 @@ return {
             tex = { "latexindent" },
             python = { "isort", "black" },
             javascript = { "prettier" },
+			astro = { "prettier"},
             typescript = { "prettier" },
             javascriptreact = { "prettier" },
             typescriptreact = { "prettier" },
@@ -20,6 +21,13 @@ return {
             json = { "jq" },
         },
         format_on_save = false,
+
+        formatters = {
+            latexindent = {
+                prepend_args = { "-l=localSettings.yaml" },
+            },
+        },
+
         vim.keymap.set("n", "<leader>f", function()
             require("conform").format({ lsp_fallback = true })
         end, { desc = "Format buffer with Conform" }),
